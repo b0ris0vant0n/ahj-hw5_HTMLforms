@@ -1,11 +1,12 @@
 {
-  "name": "homeWorkstests",
+  "name": "homeWorks_HTMLforms",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.19.6",
+    "@babel/eslint-parser": "^7.22.9",
     "@babel/preset-env": "^7.19.4",
     "babel-jest": "^29.2.1",
     "babel-loader": "^8.2.5",
