@@ -1,15 +1,14 @@
-import { Popover } from "./poppover"
+import { Popover } from "./poppover";
 
-const btn = document.querySelector('button')
+const btn = document.querySelector("button");
 
-const popover = new Popover()
+const popover = new Popover();
 
-btn.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (document.querySelector(".popover") === null) {
-        popover.addPopover(btn)
-    } else {
-        popover.removePopover()
-    }
-})
-
+btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (document.querySelector(".popover") === null) {
+    popover.addPopover(btn);
+  } else {
+    popover.removePopover();
+  }
+});
